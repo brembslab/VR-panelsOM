@@ -1,0 +1,213 @@
+{
+  "loop": true,
+  "stimuli": [
+
+    {
+      "duration": 20.0,
+      "speed": 40.0,
+      "clockwise": true,
+      "rotationAxis": "Yaw",
+      "frequency": 75.0,
+      "contrast": 1,
+      "color1": "#000000",
+      "color2": "#FFFFFF",
+      "closedLoopOrientation": false,
+      "closedLoopPosition": false
+    },
+    {
+      "duration": 20.0,
+      "speed": 40.0,
+      "clockwise": false,
+      "rotationAxis": "Yaw",
+      "frequency": 75.0,
+      "contrast": 1,
+      "color1": "#000000",
+      "color2": "#FFFFFF",
+      "closedLoopOrientation": false,
+      "closedLoopPosition": false
+    },
+        {
+      "duration": 20.0,
+      "speed": 40.0,
+      "clockwise": true,
+      "rotationAxis": "Yaw",
+      "frequency": 62.0,
+      "contrast": 1,
+      "color1": "#000000",
+      "color2": "#FFFFFF",
+      "closedLoopOrientation": false,
+      "closedLoopPosition": false
+    },
+    
+        {
+      "duration": 20.0,
+      "speed": 40.0,
+      "clockwise": false,
+      "rotationAxis": "Yaw",
+      "frequency": 62.0,
+      "contrast": 1,
+      "color1": "#000000",
+      "color2": "#FFFFFF",
+      "closedLoopOrientation": false,
+      "closedLoopPosition": false
+    }
+,
+        {
+      "duration": 20.0,
+      "speed": 40.0,
+      "clockwise": true,
+      "rotationAxis": "Yaw",
+      "frequency": 50.0,
+      "contrast": 1,
+      "color1": "#000000",
+      "color2": "#FFFFFF",
+      "closedLoopOrientation": false,
+      "closedLoopPosition": false
+    },
+    
+        {
+      "duration": 20.0,
+      "speed": 40.0,
+      "clockwise": false,
+      "rotationAxis": "Yaw",
+      "frequency": 50.0,
+      "contrast": 1,
+      "color1": "#000000",
+      "color2": "#FFFFFF",
+      "closedLoopOrientation": false,
+      "closedLoopPosition": false
+    }
+,
+        {
+      "duration": 20.0,
+      "speed": 40.0,
+      "clockwise": true,
+      "rotationAxis": "Yaw",
+      "frequency": 37.0,
+      "contrast": 1,
+      "color1": "#000000",
+      "color2": "#FFFFFF",
+      "closedLoopOrientation": false,
+      "closedLoopPosition": false
+    },
+    
+        {
+      "duration": 20.0,
+      "speed": 40.0,
+      "clockwise": false,
+      "rotationAxis": "Yaw",
+      "frequency": 37.0,
+      "contrast": 1,
+      "color1": "#000000",
+      "color2": "#FFFFFF",
+      "closedLoopOrientation": false,
+      "closedLoopPosition": false
+    }
+,
+        {
+      "duration": 20.0,
+      "speed": 40.0,
+      "clockwise": true,
+      "rotationAxis": "Yaw",
+      "frequency": 24.0,
+      "contrast": 1,
+      "color1": "#000000",
+      "color2": "#FFFFFF",
+      "closedLoopOrientation": false,
+      "closedLoopPosition": false
+    },
+    
+        {
+      "duration": 20.0,
+      "speed": 40.0,
+      "clockwise": false,
+      "rotationAxis": "Yaw",
+      "frequency": 24.0,
+      "contrast": 1,
+      "color1": "#000000",
+      "color2": "#FFFFFF",
+      "closedLoopOrientation": false,
+      "closedLoopPosition": false
+    }
+,
+        {
+      "duration": 20.0,
+      "speed": 40.0,
+      "clockwise": true,
+      "rotationAxis": "Yaw",
+      "frequency": 18.0,
+      "contrast": 1,
+      "color1": "#000000",
+      "color2": "#FFFFFF",
+      "closedLoopOrientation": false,
+      "closedLoopPosition": false
+    },
+    
+        {
+      "duration": 20.0,
+      "speed": 40.0,
+      "clockwise": false,
+      "rotationAxis": "Yaw",
+      "frequency": 18.0,
+      "contrast": 1,
+      "color1": "#000000",
+      "color2": "#FFFFFF",
+      "closedLoopOrientation": false,
+      "closedLoopPosition": false
+    }
+,
+        {
+      "duration": 20.0,
+      "speed": 40.0,
+      "clockwise": true,
+      "rotationAxis": "Yaw",
+      "frequency": 15.0,
+      "contrast": 1,
+      "color1": "#000000",
+      "color2": "#FFFFFF",
+      "closedLoopOrientation": false,
+      "closedLoopPosition": false
+    },
+    
+        {
+      "duration": 20.0,
+      "speed": 40.0,
+      "clockwise": false,
+      "rotationAxis": "Yaw",
+      "frequency": 15.0,
+      "contrast": 1,
+      "color1": "#000000",
+      "color2": "#FFFFFF",
+      "closedLoopOrientation": false,
+      "closedLoopPosition": false
+    }
+,
+        {
+      "duration": 20.0,
+      "speed": 40.0,
+      "clockwise": true,
+      "rotationAxis": "Yaw",
+      "frequency": 9.0,
+      "contrast": 1,
+      "color1": "#000000",
+      "color2": "#FFFFFF",
+      "closedLoopOrientation": false,
+      "closedLoopPosition": false
+    },
+    
+        {
+      "duration": 20.0,
+      "speed": 40.0,
+      "clockwise": false,
+      "rotationAxis": "Yaw",
+      "frequency": 9.0,
+      "contrast": 1,
+      "color1": "#000000",
+      "color2": "#FFFFFF",
+      "closedLoopOrientation": false,
+      "closedLoopPosition": false
+    }
+
+
+  ]
+}
