@@ -3,8 +3,6 @@ gc()          #collect garbage
 
 ############################################# --- begin user data --- #############################################
 datadir="D:/data/om_panels"   #where is the data located
-codedir="B:/GitHub/Platform-Drosophila/Platform-Optogenetics" #location of other R or Rmd files used in this script, normally location of this script
-htmlname="test.html" #filename for HTML evaluation sheet
 groupfilename="test.txt" #filename for text file with datafiles assigned to experimental groups
 ############################################## --- end user data --- ##############################################
 
@@ -36,7 +34,7 @@ downsampleapprox <- function(data, experimentDuration, NofPeriods, NofDatapoints
   return(dataDown)
 }
 
-
+#################################################################### Main code ####################################################
 
 
 #initialize some values
@@ -47,7 +45,7 @@ rot_amount <- vector(mode = "numeric")
 sum_rot <- vector(mode = "numeric")
 
 
-#Load the file that contains all the saved files
+#Load the file that contains the names to all the saved files
 tested_flies <- read.table(paste(datadir,"/",groupfilename, sep = ""), quote="\"", comment.char="#")$V1 #load file with fly names
 NofFlies=length(tested_flies)
 setwd(datadir)
