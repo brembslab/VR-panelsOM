@@ -2,7 +2,7 @@ rm(list=ls()) #clean memory
 gc()          #collect garbage
 
 ############################################# --- begin user data --- #############################################
-datadir="D:/data/om_panels"   #where is the data located
+datadir="B:/GitHub/VR-PanelsOM/example_data"   #where is the data located
 groupfilename="test.txt" #filename for text file with datafiles assigned to experimental groups
 ############################################## --- end user data --- ##############################################
 
@@ -71,7 +71,7 @@ for (f in 1:NofFlies) {
     rot_amount[period]=sum(lodata$rotresp[lodata$period==period])  
   }
   
-  #sum the rerponses in each repeated period
+  #sum the responses in each repeated period
   for (x in 1:16) {
     sum_rot[x]=rot_amount[x]+rot_amount[x+16]+rot_amount[x+32]
   }
@@ -90,7 +90,7 @@ for (i in 1:8) {
 #plot results:
 optomotor$wavelength=c(4.8,5.8,7.2,9.7,15,20,24,40) 
 optomotor$stripes=c(75,62,50,37,24,18,15,9)
-optomotor$mean <- rowMeans(optomotor)
+optomotor$mean <- rowMeans(optomotor[1:12])
 optomotor$se <- apply(optomotor[, 1:NofFlies], 1, function(x) sd(x)/sqrt(length(x)))
 
 
